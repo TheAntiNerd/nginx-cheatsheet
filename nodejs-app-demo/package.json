@@ -1,0 +1,17 @@
+{
+	"name": "nodejs-app-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "Rituraj Phukan",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.18.3",
+		"uuid": "^9.0.1"
+	}
+}
