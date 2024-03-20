@@ -2,7 +2,7 @@ const express = require('express');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express(),
-	port = process.env.PORT;
+	port = process.env.PORT || 3000;
 
 app.get(`/`, (req, res) => {
 	res.json({
